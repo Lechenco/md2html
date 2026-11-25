@@ -1,0 +1,40 @@
+html {
+    background-color: #F4F1EA;
+}
+
+body {
+    padding: 60px 20px 0px;
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    padding: 20px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #4B8EE8;
+    color: white;
+}
+
+div.content {
+    padding: 20px;
+    background-color: #F4F1EA;
+    -webkit-box-shadow: 1px 0px 2px 1px rgba(58,55,52,0.5); 
+    box-shadow: 1px 0px 2px 1px rgba(58,55,52,0.5);
+}
+
+img {
+    border-radius: 16px;
+    justify-self: center;
+    display: block;
+}
+
+@media print {
+
+    header {
+        padding: 20px;
+        border-radius: 16px 16px 0px 0px;
+        background-color: #4B8EE8;
+        color: white;
+    }
+}
+
